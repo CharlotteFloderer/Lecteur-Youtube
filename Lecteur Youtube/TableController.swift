@@ -16,6 +16,7 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
     var chansons = [Chanson]()
     
     let idenfifiantCell = "ChansonCell"
+     let indentifiantSegue = "VersVideo"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,6 +38,7 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
         // pour recuperer les chansons, remplire les cellules
         
         let chanson = chansons[indexPath.row]
+       
         
         if let cell = tableView.dequeueReusableCell(withIdentifier: idenfifiantCell) as? ChansonCell {
             cell.creerCell(chanson)
@@ -51,6 +53,22 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
         return 130
     }
     
+    // pour Aller sur le deuxieme ViewController
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let chanson = chansons[indexPath.row]
+        performSegue(withIdentifier: indentifiantSegue, sender: chanson)
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == indentifiantSegue {
+            if let nouveauController = segue.destination as? VideoController{
+                   nouveauController.chanson = sender as? Chanson
+            }
+        }
+    }
+    
+    //FIN de pour Aller sur le deuxieme ViewController
     
     
     func ajouterChanson () {

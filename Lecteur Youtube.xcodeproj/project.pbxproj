@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9EE47E32210C9FC90083DBC5 /* ChansonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE47E31210C9FC90083DBC5 /* ChansonCell.swift */; };
+		9EE47E34210CAA5E0083DBC5 /* VideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE47E33210CAA5E0083DBC5 /* VideoController.swift */; };
 		9EFCB6FE210B243D0072C5C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCB6FD210B243D0072C5C7 /* AppDelegate.swift */; };
 		9EFCB703210B243D0072C5C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFCB701210B243D0072C5C7 /* Main.storyboard */; };
 		9EFCB705210B243F0072C5C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFCB704210B243F0072C5C7 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		9EE47E31210C9FC90083DBC5 /* ChansonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChansonCell.swift; sourceTree = "<group>"; };
+		9EE47E33210CAA5E0083DBC5 /* VideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoController.swift; sourceTree = "<group>"; };
 		9EFCB6FA210B243D0072C5C7 /* Lecteur Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecteur Youtube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFCB6FD210B243D0072C5C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EFCB702210B243D0072C5C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				9EFCB70F210B26CF0072C5C7 /* TableController.swift */,
 				9EFCB711210B29250072C5C7 /* Chanson.swift */,
 				9EE47E31210C9FC90083DBC5 /* ChansonCell.swift */,
+				9EE47E33210CAA5E0083DBC5 /* VideoController.swift */,
 			);
 			path = "Lecteur Youtube";
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EE47E34210CAA5E0083DBC5 /* VideoController.swift in Sources */,
 				9EFCB710210B26CF0072C5C7 /* TableController.swift in Sources */,
 				9EFCB6FE210B243D0072C5C7 /* AppDelegate.swift in Sources */,
 				9EE47E32210C9FC90083DBC5 /* ChansonCell.swift in Sources */,
