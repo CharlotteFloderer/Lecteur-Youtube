@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		9EFCB6FE210B243D0072C5C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCB6FD210B243D0072C5C7 /* AppDelegate.swift */; };
-		9EFCB700210B243D0072C5C7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCB6FF210B243D0072C5C7 /* ViewController.swift */; };
 		9EFCB703210B243D0072C5C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFCB701210B243D0072C5C7 /* Main.storyboard */; };
 		9EFCB705210B243F0072C5C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFCB704210B243F0072C5C7 /* Assets.xcassets */; };
 		9EFCB708210B243F0072C5C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFCB706210B243F0072C5C7 /* LaunchScreen.storyboard */; };
+		9EFCB710210B26CF0072C5C7 /* TableController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCB70F210B26CF0072C5C7 /* TableController.swift */; };
+		9EFCB712210B29250072C5C7 /* Chanson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFCB711210B29250072C5C7 /* Chanson.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9EFCB6FA210B243D0072C5C7 /* Lecteur Youtube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lecteur Youtube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFCB6FD210B243D0072C5C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9EFCB6FF210B243D0072C5C7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9EFCB702210B243D0072C5C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9EFCB704210B243F0072C5C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EFCB707210B243F0072C5C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9EFCB709210B243F0072C5C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EFCB70F210B26CF0072C5C7 /* TableController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableController.swift; sourceTree = "<group>"; };
+		9EFCB711210B29250072C5C7 /* Chanson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chanson.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +57,12 @@
 			isa = PBXGroup;
 			children = (
 				9EFCB6FD210B243D0072C5C7 /* AppDelegate.swift */,
-				9EFCB6FF210B243D0072C5C7 /* ViewController.swift */,
 				9EFCB701210B243D0072C5C7 /* Main.storyboard */,
 				9EFCB704210B243F0072C5C7 /* Assets.xcassets */,
 				9EFCB706210B243F0072C5C7 /* LaunchScreen.storyboard */,
 				9EFCB709210B243F0072C5C7 /* Info.plist */,
+				9EFCB70F210B26CF0072C5C7 /* TableController.swift */,
+				9EFCB711210B29250072C5C7 /* Chanson.swift */,
 			);
 			path = "Lecteur Youtube";
 			sourceTree = "<group>";
@@ -135,8 +138,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EFCB700210B243D0072C5C7 /* ViewController.swift in Sources */,
+				9EFCB710210B26CF0072C5C7 /* TableController.swift in Sources */,
 				9EFCB6FE210B243D0072C5C7 /* AppDelegate.swift in Sources */,
+				9EFCB712210B29250072C5C7 /* Chanson.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
