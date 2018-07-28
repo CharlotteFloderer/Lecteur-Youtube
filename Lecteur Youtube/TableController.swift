@@ -22,6 +22,7 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
         tableView.delegate = self
         tableView.dataSource = self
         ajouterChanson()
+        title = "Playlist"
        
     }
 
@@ -47,7 +48,7 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 170
+        return 130
     }
     
     
