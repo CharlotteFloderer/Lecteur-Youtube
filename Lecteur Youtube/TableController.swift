@@ -15,7 +15,7 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
     
     var chansons = [Chanson]()
     
-    
+    let idenfifiantCell = "ChansonCell"
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,8 +32,25 @@ class TableController: UIViewController, UITableViewDelegate, UITableViewDataSou
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+       
+        // pour recuperer les chansons, remplire les cellules
+        
+        let chanson = chansons[indexPath.row]
+        
+        if let cell = tableView.dequeueReusableCell(withIdentifier: idenfifiantCell) as? ChansonCell {
+            cell.creerCell(chanson)
+            return cell
+        }
+        
         return UITableViewCell()
+        
     }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 170
+    }
+    
+    
     
     func ajouterChanson () {
         chansons =  [Chanson]()
